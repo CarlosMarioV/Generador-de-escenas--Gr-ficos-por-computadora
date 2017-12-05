@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Ray_Tracing_Basico" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Ray_Tracing_Basico" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="ImagenesCreadas" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="escena" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Ray_Tracing_Basico" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="algebra.cpp" />
+		<Unit filename="algebra.h" />
+		<Unit filename="binary.cpp" />
+		<Unit filename="block.h" />
+		<Unit filename="build" />
+		<Unit filename="chessboard.cpp" />
+		<Unit filename="chessboard.h" />
+		<Unit filename="cone.cpp" />
+		<Unit filename="cuboid.cpp" />
+		<Unit filename="cylinder.cpp" />
+		<Unit filename="debug.cpp" />
+		<Unit filename="dodecahedron.cpp" />
+		<Unit filename="icosahedron.cpp" />
+		<Unit filename="imager.h" />
+		<Unit filename="lodepng.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="optics.cpp" />
+		<Unit filename="planet.cpp" />
+		<Unit filename="planet.h" />
+		<Unit filename="polyhedra.h" />
+		<Unit filename="reorient.cpp" />
+		<Unit filename="scene.cpp" />
+		<Unit filename="setcompl.cpp" />
+		<Unit filename="setisect.cpp" />
+		<Unit filename="setunion.cpp" />
+		<Unit filename="solid.cpp" />
+		<Unit filename="sphere.cpp" />
+		<Unit filename="spheroid.cpp" />
+		<Unit filename="thinring.cpp" />
+		<Unit filename="torus.cpp" />
+		<Unit filename="triangle.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
